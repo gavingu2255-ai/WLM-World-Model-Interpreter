@@ -95,6 +95,39 @@ Output (MVP):
 }
 ```
 
+# Structure
+
+```
+WLM-World-Model-Interpreter/
+│
+├── LICENSE
+├── README.md
+├── pyproject.toml
+├── setup.cfg
+├── MANIFEST.in
+│
+├── src/
+│   └── wlm_world_model_interpreter/
+│       ├── __init__.py
+│       ├── world_model_interpreter.py
+│       ├── spatial.py
+│       ├── temporal.py
+│       ├── affordances.py
+│       └── utils.py
+│
+├── docs/
+│   ├── overview.md
+│   ├── spatial-anchors.md
+│   ├── temporal-anchors.md
+│   ├── affordances.md
+│   └── structure-hooks.md
+│
+└── examples/
+    ├── interpret_video_frame.py
+    ├── interpret_world_state.py
+    └── spatial_temporal_demo.md
+```
+
 ---
 
 # 📜 License
